@@ -12,6 +12,11 @@ h1 {
     text-align: left;
     width: auto;
 }
+h2 {
+    font-family: 'Grey Qo', cursive;
+    text-align: center;
+
+}
 .name {
     font-family: 'Quantico', sans-serif;
 }
@@ -22,21 +27,27 @@ h1 {
 
 }
 aside {
+    float: left;
     width: 200px;
-    height: 250px;
+    height: 400px;
     padding: 20px;
     background: gold;
 }
+article {
+    height: 400px;
+    width: 600px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+
+}
+.placeholder {
+    font-family: 'Grey Qo', cursive;
+}
+
 .resourcesBox {
 
-    width: 200px;
-    height: 250px;
-    padding: 20px;
-    background: cyan;
 }
 .projectsBox {
-    width: 200px;
-    height: 250px;
-    padding: 20px;
-    background: coral;
+
 }
