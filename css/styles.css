@@ -1,3 +1,42 @@
 img.face{
     float:left;
 }
+.titlePic {
+    float: left;
+    width: 30%;
+    height: fit-content;
+    padding: 20px;
+}
+h1 {
+    font-family: 'Gluten', cursive;
+    text-align: left;
+    width: auto;
+}
+.name {
+    font-family: 'Quantico', sans-serif;
+}
+.clearfix {
+    clear: both
+}
+.wrapper {
+
+}
+aside {
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    background: gold;
+}
+.resourcesBox {
+
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    background: cyan;
+}
+.projectsBox {
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    background: coral;
+}
