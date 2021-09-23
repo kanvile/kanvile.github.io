@@ -13,8 +13,9 @@ h1 {
     width: auto;
 }
 h2 {
-    font-family: 'Grey Qo', cursive;
+
     text-align: center;
+
 
 }
 .name {
@@ -43,6 +44,8 @@ article {
 }
 .placeholder {
     font-family: 'Grey Qo', cursive;
+    font-size: 25px;
+    font-weight: normal;
 }
 
 .resourcesBox {
