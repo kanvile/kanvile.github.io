@@ -57,7 +57,7 @@ a:hover{
     header, footer {
         text-align: center;
     }
-    .project-item img {
+    .titlePic {
         float: left;
         padding-right: 20px;
         margin-top: 25px;
