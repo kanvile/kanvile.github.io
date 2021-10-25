@@ -27,6 +27,8 @@ label {
     margin-bottom: 5px;
     max-width: 100%;
     color: #0c2255;
+    font-size: large;
+    font-weight: bold;
 }
 h1{
     max-width: 1180px;
@@ -42,7 +44,7 @@ div {
     background-color: #f8fafb;
     margin-top: 10px;
 }
-.signin button, .signin input[type=email], .signin input[type=password], .signin input[type=text] {
+.signin button, .signin input[type=email], .signin input[type=password], .signin input[type=text], .signin select {
     width: 100%;
     display: block;
     margin-bottom: 10px;
@@ -90,7 +92,7 @@ footer {
         padding: 15px;
         margin: 0 auto;
     }
-    .signin #login #thePassword{
+    .signin #login #thePassword #user-type{
         max-width: 300px;
         padding: 9px;
     }
