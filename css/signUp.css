@@ -26,7 +26,7 @@ form {
     background-color: #f8fafb;
     margin-top: 10px;
 }
-.signupbtn, .container input[type=email], .container input[type=password], .container input[type=text], .container select {
+.signupbtn, .cancelbtn, .container input[type=email], .container input[type=password], .container input[type=text], .container select {
     width: 100%;
     display: block;
     margin-bottom: 10px;
