@@ -1,0 +1,27 @@
+.logo-background {
+    background-color: #FFFD98;
+    color: darkslategrey;
+}
+footer {
+    background-color: #FFFD98;
+    color: darkslategrey;
+
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+
+}
+.list a {
+    padding: 15px;
+    display: inline-block;
+}
+@media screen and (min-width: 750px){
+    footer {
+        text-align: center;
+    }
+    .list {
+        display: flex;
+        justify-content: center;
+    }
+}
