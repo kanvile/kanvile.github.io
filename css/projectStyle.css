@@ -1,14 +1,22 @@
-.logo-background {
-    background-color: #FFFD98;
-    color: darkslategrey;
+.logo {
+    opacity: revert;
+}
+.banner {
+    background-color: #7A9CC6;
+    color: #F7FFF7;
+    background-image:url("/pics/Kings College (1).png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    opacity: 0.5;
 }
 .background-picture {
     background-color: #7A9CC6;
     color: #F7FFF7;
     max-width: 2048px;
-    background-image: url("../pics/kingscollegebackground.jpg");
+    background-image: url("../images/bg.jpg");
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: center;
     background-size: cover;
 }
 form {
@@ -43,6 +51,7 @@ h1{
     max-width: 1180px;
     margin-left: auto;
     margin-right: auto;
+    color: #232323;
 }
 div {
     display: block;
@@ -50,8 +59,9 @@ div {
 .form-wrap {
     max-width: 600px;
     padding-top: 20px;
-    background-color: #f8fafb;
+    background-color: lavender;
     margin-top: 10px;
+    opacity: 0.8;
 }
 .signin button, .signin input[type=email], .signin input[type=password], .signin input[type=text], .signin select {
     width: 100%;
@@ -95,7 +105,7 @@ footer {
         align-items: center;
     }
 }
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 500px) {
     .username .password {
         max-width: 330px;
         padding: 15px;
